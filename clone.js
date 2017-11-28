@@ -24,7 +24,6 @@ axios.get(url)
         console.log(error);
     });  
 
-
 function clone(repo, alias){
     var root = 'repos/';
     var dest = root + alias;
